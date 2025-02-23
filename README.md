@@ -53,10 +53,6 @@ Visit URL in your browser: <http://localhost:3000>
 - Better voters and candidate data insertion
 - Multiple candidate positions for voting
 
-## Note
-
-This project is not intended to be a fully fledged voting system. It is just a proof of concept to understand the basics of blockchain technology. It is done as a final project of Blockchain Fellowship 2022 by [esatya.io](https://esatya.io/fellowship/2021).
-
 
 
 <h3>Developed by Usanase Nice Josiane</h3>
