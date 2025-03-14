@@ -1,58 +1,30 @@
-# Block-Chain Based Voting System
+<h3>🗳️ Blockchain-Based Voting System</h3>
+A decentralized and secure voting system built using React and Solidity on the Ethereum Blockchain.
 
-This project is blockchain based voting dapp created in React and Solidity.
+<h3>🚀 Project Description</h3>
+The Blockchain-Based Voting System is a modern web-based voting solution powered by Ethereum blockchain technology. By leveraging blockchain's decentralized, transparent, and immutable features, this system addresses the challenges of traditional voting methods. 🌍
 
-## Project Description
+<h3>💡 Key Features:</h3>
+Decentralized & Transparent: No central authority! Everything is stored on a transparent blockchain ledger.
+Trustless: Built on blockchain technology, it eliminates the need for trust in a central authority.
+Immutable: Once a vote is cast, it can never be changed, ensuring transparency and security.
+This project serves as a simple implementation of a blockchain voting system, aiming to demonstrate the core concepts of Ethereum blockchain technology and the development of decentralized applications (dApps) using Solidity and React.
 
-“Blockchain Based Voting System” is a web based online voting system primarily based on ethereum blockchain technology. Blockchain is a transparent, distributed, immutable and trustless ledger and to overcome the problems of the traditional voting system, blockchain plays a vital role in terms of security, trust and more. Here anyone eligible for voting can vote for their favorite candidate and they can see the result after the end of the election. It is fast, secure, and has low cost as compared to traditional voting systems. Some key features of our system are:
+<h3>🧑‍💼 Roles and Actions:</h3>
+Admin 🛠️: The user who deploys the smart contract. The Admin has the power to:
+Add eligible voters and candidates 🧑‍🤝‍🧑
+Start and end the election 🏁
+Voters 🗳️: Eligible users who can cast their vote for their preferred candidate. They can:
+Vote once during the election period ✔️
+View the election results after it ends 📊
+<h3>🏁 Workflow:</h3>
+Admin adds voters and candidates.
+Admin starts the election 🏁.
+Eligible voters cast their votes for their preferred candidate 🗳️.
+Admin ends the election 🚫.
+The election results are immediately displayed 📊.
+<h3>🔐 Why Blockchain?</h3>
+Security 🔒: Blockchain's encryption ensures votes are securely stored.
+Efficiency ⚡: Faster than traditional voting systems, with lower costs.
+Transparency 🌐: Everyone can trust the system since all data is publicly verifiable.
 
-a) Decentralized & Transparent
-
-b) Trustless
-
-c) Immutable
-
-This project is a simple implementation of a voting system done to understand the basics of ethereum blockchain technology and the working mechanism of decentralized application made in Solidity and React. Here, one account who deploys the smart contract is the Admin and he/she can add voters and candidates that are eligible to cast the vote.  Then, the admin starts the election and eligible voters can vote for their favorite candidate. Finally, when admin ends the election, the voters can immediately see the final result of the election.
-
-
-## Installation
-
-### Step 1. Clone the project
-
-```git clone https://github.com/ashishlamsal/voting-dapp```
-
-### Step 2. Start Ganache
-
-Open the Ganache GUI client to start the local blockchain instance.
-
-### Step 3. Compile & Deploy Election Smart Contract
-
-```truffle migrate --reset```
-
-We must migrate the election smart contract each time restart ganache.
-
-### Step 4. Configure Metamask
-
-- Unlock Metamask
-- Connect metamask to the local Etherum blockchain provided by Ganache.
-- Import an account provided by Ganache.
-
-### Step 5. Run the Front End Application
-
-```powershell
-cd .\client
-yarn install
-yarn start
-```
-
-Visit URL in your browser: <http://localhost:3000>
-
-## Next Steps
-
-- Better legitimate user checking through biometrics
-- Better voters and candidate data insertion
-- Multiple candidate positions for voting
-
-
-
-<h3>Developed by Usanase Nice Josiane</h3>
